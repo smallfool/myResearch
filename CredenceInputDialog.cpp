@@ -53,7 +53,7 @@ int __thiscall CCredenceInput::DoModal(CWnd *this)
 		&v19,
 		"0101020101",
 		(char *)&strText[9] + 3);
-	if (sub_484E7C(v19, v20, v21, v22, v23))
+	if (CheckRoleRight(v19, v20, v21, v22, v23))
 	{
 		strText[0] = *(_DWORD *)"CC;B;;BCC;B;;BCC";
 		strText[1] = *(_DWORD *)";;BCC;B;;BCC";
